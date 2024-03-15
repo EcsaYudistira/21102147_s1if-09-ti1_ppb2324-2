@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Praktikum 4',
+      title: 'Praktikum 04',
       home: Scaffold(
         appBar: AppBar(
           leading: Icon(Icons.arrow_back),
@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
                   SizedBox(height: 5),
                   //NIM
                   Text(
-                    "2110xxxxxx",
+                    "21102147",
                     style: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
