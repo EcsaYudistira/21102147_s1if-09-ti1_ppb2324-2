@@ -171,28 +171,28 @@ class HomePage extends StatelessWidget {
                                   ),
                                   _transactionList(
                                     kTreeGreen.withOpacity(0.2),
-                                    'assets/icon/triangle-up.png',
+                                    'assets/icons/triangle-up.png',
                                     'Success!',
                                     'February 19, 03:25 PM',
                                     '+ 100.000'
                                   ),
                                   _transactionList(
                                     kTreeGreen.withOpacity(0.2),
-                                    'assets/icon/triangle-up.png',
+                                    'assets/icons/triangle-up.png',
                                     'Success!',
                                     'February 16, 01:25 PM',
                                     '+ 150.000'
                                   ),
                                   _transactionList(
                                     kOrange.withOpacity(0.2),
-                                    'assets/icon/triangle-down.png',
+                                    'assets/icons/triangle-down.png',
                                     'Starbucks Drinks',
                                     'February 10, 12:25 PM',
                                     '- 110.000'
                                   ),
                                   _transactionList(
                                     kOrange.withOpacity(0.2),
-                                    'assets/icon/triangle-down.png',
+                                    'assets/icons/triangle-down.png',
                                     'Payment #Invest',
                                     'February 5, 11:05 PM',
                                     '- 130.000'

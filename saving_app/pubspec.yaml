@@ -64,8 +64,13 @@ flutter:
   assets:
   - assets/icons/save.png
   - assets/icons/pay.png
+  - assets/icons/pension.png
+  - assets/icons/camera.png
+  - assets/icons/triangle-down.png
+  - assets/icons/triangle-up.png
   - assets/images/user-img.png
   - assets/images/bg-container.png
+  - assets/images/bg-container-2.png
   - assets/images/ob-money.png
   - assets/icons/home.png
   - assets/icons/portofolio.png
