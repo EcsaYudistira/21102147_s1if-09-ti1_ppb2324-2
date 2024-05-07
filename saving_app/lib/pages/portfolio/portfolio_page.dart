@@ -5,7 +5,7 @@ import 'package:saving_app/styles/colors.dart';
 import 'package:saving_app/styles/text_style.dart';
 
 class PortfolioPage extends StatelessWidget {
-  const PortfolioPage({super.key});
+  const PortfolioPage({Key? key})  : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +49,7 @@ class PortfolioPage extends StatelessWidget {
                       'Saving Value',
                       style: kSubtitle2.copyWith(
                       color: kWhite,
-                      fontWeight: FontWeight.w600,
+                      
                      ),
                     ),
                     SizedBox(
@@ -59,7 +59,7 @@ class PortfolioPage extends StatelessWidget {
                       'Rp 12.480.000',
                       style: kHeading5.copyWith(
                       color: kWhite,
-                      fontWeight: FontWeight.w600,
+                      
                      ),
                     ),
                 ],
@@ -67,21 +67,21 @@ class PortfolioPage extends StatelessWidget {
             ),
           ),
           _portfolioCardList(
-            'assets/icon/pension.png',
+            'assets/icons/pension.png',
             'Pension savings funds',
             0.3,
             'Rp. 10.430.000 / Rp. 40.000.000',
             'Last saving February 19'
             ),
           _portfolioCardList(
-            'assets/icon/camera.png',
+            'assets/icons/camera.png',
             'Camera',
             0.5,
             'Rp. 2.050.000 / Rp. 4.000.000',
             'Last saving February 16'
           ),
           _portfolioCardList(
-            'assets/icon/camera.png',
+            'assets/icons/camera.png',
             'Camera',
             0.5,
             'Rp. 2.050.000 / Rp. 4.000.000',
@@ -127,7 +127,7 @@ class PortfolioPage extends StatelessWidget {
     );
   }
 
-  Widget _portfolioCardList(String icon, String title, double percent, String amount, String time) {
+  Widget _portfolioCardList(String icons, String title, double percent, String amount, String time) {
     return Container(
       margin: EdgeInsets.only(
           left: 30,
@@ -163,7 +163,7 @@ class PortfolioPage extends StatelessWidget {
                 child: CircleAvatar(
                   backgroundColor: kTropicalBlue,
                   child: Image.asset(
-                    icon,
+                    icons,
                   width: 24,
                   ),
                   ),
