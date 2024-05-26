@@ -12,7 +12,20 @@
           "package_name": "com.example.firebase_auth"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "227110631544-kdg4ss6lnre7d6b4qj4kfnv0of4v4ee5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase_auth",
+            "certificate_hash": "df5d06f7d72cfbb7d2074625fb0c0041ba8be3a0"
+          }
+        },
+        {
+          "client_id": "227110631544-7a5tigkjcd1u3kj2p35v38727v87cop7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCTp6fIn7q-NZLloPpq8FZGvvbEvAZkh3g"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227110631544-7a5tigkjcd1u3kj2p35v38727v87cop7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "227110631544-2dbrjd3smu5v03p0dh34d7s4fvv6mlab.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pertemuan9"
+              }
+            }
+          ]
         }
       }
     },
@@ -31,7 +56,12 @@
           "package_name": "com.example.pertemuan9"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "227110631544-7a5tigkjcd1u3kj2p35v38727v87cop7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCTp6fIn7q-NZLloPpq8FZGvvbEvAZkh3g"
@@ -39,7 +69,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227110631544-7a5tigkjcd1u3kj2p35v38727v87cop7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "227110631544-2dbrjd3smu5v03p0dh34d7s4fvv6mlab.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pertemuan9"
+              }
+            }
+          ]
         }
       }
     }
